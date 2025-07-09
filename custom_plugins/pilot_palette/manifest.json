@@ -1,10 +1,10 @@
 {
-    "domain": "high_contrast_pilot_colour_palette",
-    "name": "Pilot Colours",
+    "domain": "pilot_palette",
+    "name": "Pilot Colour Palette",
     "author": "JRo",
     "author_uri": "https://github.com/jrwrodgers",
-    "description": "Table of qualifying results",
-    "documentation_uri": "https://github.com/jrwrodgers/quali_results_table",
+    "description": "Set the pilots colours to a high contrast palette",
+    "documentation_uri": "https://github.com/jrwrodgers/pilot_palette",
     "required_rhapi_version": "1.2",
     "version": "1.0.0",
     "dependencies" : []

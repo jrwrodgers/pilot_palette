@@ -8,12 +8,9 @@ from RHUI import UIField, UIFieldType, UIFieldSelectOption
 from Database import Pilot, SavedRaceLap
 from eventmanager import Evt
 
-
-
 import colorsys
 
-
-DEBUG=True
+DEBUG=False
 logger = logging.getLogger(__name__)
 
 
@@ -37,10 +34,6 @@ def generate_high_contrast_palette(n, saturation=0.7, lightness=0.5):
         colors.append(hex_color)
     return colors
 
-# Example usage:
-#palette = generate_high_contrast_palette(10)
-#print(palette)
-
 def set_pilot_colours(args: dict) -> None:
     rhapi: Union[RHAPI, None] = args.get("rhapi", None)
     if rhapi is not None:
@@ -55,8 +48,6 @@ def set_pilot_colours(args: dict) -> None:
             #pilots[i].color=hex_codes[i]
             if DEBUG:
                logger.info(f"Setting pilot {pilots[i].callsign} to color {hex_codes[i]}")
-
-
 
 
 
