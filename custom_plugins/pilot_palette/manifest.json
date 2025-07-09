@@ -6,6 +6,6 @@
     "description": "Set the pilots colours to a high contrast palette",
     "documentation_uri": "https://github.com/jrwrodgers/pilot_palette",
     "required_rhapi_version": "1.2",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "dependencies" : []
 }
