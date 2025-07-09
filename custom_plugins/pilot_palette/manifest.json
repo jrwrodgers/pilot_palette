@@ -1,0 +1,11 @@
+{
+    "domain": "high_contrast_pilot_colour_palette",
+    "name": "Pilot Colours",
+    "author": "JRo",
+    "author_uri": "https://github.com/jrwrodgers",
+    "description": "Table of qualifying results",
+    "documentation_uri": "https://github.com/jrwrodgers/quali_results_table",
+    "required_rhapi_version": "1.2",
+    "version": "1.0.0",
+    "dependencies" : []
+}
